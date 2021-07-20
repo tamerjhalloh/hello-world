@@ -5,7 +5,8 @@
 // import FuncitonClick from "./components/FuncitonClick";
 // import ClassClick from "./components/ClassClick";
 // import EventBind from "./components/EventBind";
- import ParentComponent from "./components/ParentComponent";
+//  import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 
 import  "./App.css";
 
@@ -28,7 +29,8 @@ function App() {
       {/* <FuncitonClick></FuncitonClick>
       <ClassClick></ClassClick> */}
       {/* <EventBind></EventBind> */}
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+      <UserGreeting></UserGreeting>
     </div>
   );
 }
