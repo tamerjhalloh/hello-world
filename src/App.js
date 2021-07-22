@@ -38,8 +38,10 @@ import "./App.css";
 // import HoverCounter2 from "./components/RenderProps/HoverCounter2"; 
 // //import User from "./components/RenderProps/User";
 // import Counter from "./components/RenderProps/Counter";
-import ComponentC from "./components/Context/ComponentC";
-import { UserProvider } from "./components/Context/UserContext";
+// import ComponentC from "./components/Context/ComponentC";
+// import { UserProvider } from "./components/Context/UserContext";
+// import PostList from "./components/Http/PostList";
+import PostForm from "./components/Http/PostForm";
 
 function App() {
   return (
@@ -90,9 +92,11 @@ function App() {
           <HoverCounter2 count={count}  incrementHandler={incrementHandler}/>
         )}
       </Counter>  */}
-      <UserProvider value="Tamer">
+      {/* <UserProvider value="Tamer">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
+      {/* <PostList /> */}
+      <PostForm />  
     </div>
   );
 }
